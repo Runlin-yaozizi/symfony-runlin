@@ -1,0 +1,10 @@
+<?php
+namespace App\Controller
+use Symfony\Component\HttpFoundation\Response;
+Clase ArticleController
+{
+    public function homepage()
+    {
+        return new response("Bonjour Runlin")
+    }
+}
